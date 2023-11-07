@@ -26,7 +26,7 @@ figlet oh my zsh #这里不是斜体的，但大概就长这种形式
 
 4. 下载必备二件套
 
-  - zsh-autosuggestions 根据命令行历史输入自动提示， 按➡️ （键盘右下角上下左右的那个右）自动补全
+  - zsh-autosuggestions 根据命令行历史输入自动提示， 按➡️（键盘右下角上下左右的那个右）自动补全
 
     注意只有已经键入过的命令才会自动补全，和tab补全不太一样，但会把补全内容显示出来，非常好用
   - zsh-syntax-highlighting 语法提示，输入正确的命令语法会是绿色，错误的则是红色
@@ -81,7 +81,8 @@ figlet oh my zsh #这里不是斜体的，但大概就长这种形式
     ```shell
     # 我现在在不知道什么地方， 想要去 ～/Desktop/大学/大二-秋/280/Projects/P3 这个地方
     z P3
-    # 这就到了，甚至不区分大小写，不完整字符串也能识别。比如我经常去 ~/Desktop/大学/大二-秋/280/Projects/P3/Project-3-Related-Files/tests 只需要输入
+    # 这就到了，甚至不区分大小写，不完整字符串也能识别
+    # 比如我经常去 ~/Desktop/大学/大二-秋/280/Projects/P3/Project-3-Related-Files/tests 只需要输入
     z te
     # 就可以到达了
     ```
